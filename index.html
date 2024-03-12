@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Tabela</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        caption{
+            background-color: chocolate;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+    <table border="1" style="text-align: center;" >
+<caption>Tabela utilizando colspan e rowspan</caption>
+        <tr>
+            <th>Horário</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <tr>
+            <th rowspan="2">8h</th>
+            <td colspan="5" style="background-color: blue;">Acordar</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="background-color: red;">Tomar café</td>
+        </tr>
+        <tr>
+            <th>9h</th>
+            <td rowspan="2" colspan="5" style="background-color: yellow;">Trabalhar</td>
+        </tr>
+        <th>12h</th>
+        <tr>
+            <th>13h</th>
+            <td colspan="5" style="background-color: green;">Almoçar</td>
+        </tr>
+        <tr>
+            <th>13.30h</th>
+            <td style="background-color: yellowgreen;">Ler</td>
+            <td style="background-color: thistle;">Ver celular</td>
+            <td style="background-color: aqua;">Estudar</td>
+            <td style="background-color: thistle;">Ver celular</td>
+            <td rowspan="2" style="background-color: yellowgreen;">Ler</td>
+        </tr>
+        <tr>
+            <th>14h</th>
+            <td colspan="4" rowspan="2" style="background-color: yellow;">Trabalhar</td>
+        </tr>
+        <tr>
+            <th>17h</th>
+            <td style="background-color: blueviolet;">Assistir TV</td>
+        </tr>
+        <tr>
+            <th rowspan="2">17.30h</th>
+            <td colspan="2" rowspan="2" style="background-color: grey;">Tomar Banho</td>
+            <td style="background-color: blueviolet;">Assistir TV</td>
+            <td colspan="2" rowspan="2" style="background-color: grey;">Tomar Banho</td>
+        </tr>
+        <tr>
+            <td style="background-color: grey;">Tomar Banho</td>
+        </tr>
+        <tr>
+            <th >18h</th>
+            <td colspan="5" rowspan="2" style="background-color: aqua;">Estudar - Unifebe</td>
+        </tr>
+        <tr>
+            <th>22h</th>
+            
+        </tr>
+        <tr>
+            <th>23h</th>
+            <td colspan="5" style="color: white; background-color: black;">Dormir!</td>
+        </tr>
+    </table> 
+    <h4>Essas informações não condizem 100% com a realidade</h4>
+</body>
+</html>
